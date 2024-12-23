@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STELLA TV</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Menú de navegación -->
+  <header>
+    <nav class="navbar">
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección de Inicio -->
+  <section id="inicio" class="hero">
+    <h1>Bienvenido a STELLA TV</h1>
+    <p>Los mejores canales de televisión a tu alcance. ¡Descubre nuestras ofertas!</p>
+  </section>
+
+  <!-- Sección de Productos -->
+  <section id="productos">
+    <h2>Productos Destacados</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="canal1.jpg" alt="Canal 1">
+        <h3>Paquete Básico</h3>
+        <p>$9.99 / mes</p>
+        <button>Añadir al Carrito</button>
+      </div>
+      <div class="product">
+        <img src="canal2.jpg" alt="Canal 2">
+        <h3>Paquete Premium</h3>
+        <p>$19.99 / mes</p>
+        <button>Añadir al Carrito</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Sobre Nosotros -->
+  <section id="sobre-nosotros">
+    <h2>Sobre STELLA TV</h2>
+    <p>En STELLA TV ofrecemos los mejores paquetes de canales para todos los gustos.</p>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre">
+      
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email">
+      
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje"></textarea>
+      
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Botón de contacto flotante -->
+  <div class="contact-button">
+    <a href="https://wa.me/1234567890" target="_blank">📞 Soporte</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
